@@ -22,10 +22,8 @@ final class LocationInformationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         mapView.delegate = self
         locationManager.delegate = self
-        
         bind(viewModel)
         attribute()
         layout()
