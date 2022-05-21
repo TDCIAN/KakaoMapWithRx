@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E5596812838B5FB00F8C4BE /* DetailListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5596802838B5FB00F8C4BE /* DetailListCell.swift */; };
+		1E5596832838B93800F8C4BE /* DetailListBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5596822838B93800F8C4BE /* DetailListBackgroundView.swift */; };
+		1E5596852838B94500F8C4BE /* DetailListBackgroundViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5596842838B94500F8C4BE /* DetailListBackgroundViewModel.swift */; };
 		1E6923152835BA36000F87D4 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 1E6923142835BA36000F87D4 /* RxCocoa */; };
 		1E6923172835BA36000F87D4 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 1E6923162835BA36000F87D4 /* RxRelay */; };
 		1E6923192835BA36000F87D4 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1E6923182835BA36000F87D4 /* RxSwift */; };
@@ -72,6 +75,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E5596802838B5FB00F8C4BE /* DetailListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCell.swift; sourceTree = "<group>"; };
+		1E5596822838B93800F8C4BE /* DetailListBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListBackgroundView.swift; sourceTree = "<group>"; };
+		1E5596842838B94500F8C4BE /* DetailListBackgroundViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListBackgroundViewModel.swift; sourceTree = "<group>"; };
 		1E69231A2835BD6F000F87D4 /* MTMapViewError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTMapViewError.swift; sourceTree = "<group>"; };
 		1E6AC25E2835B3A800941322 /* KakaoMapWithRx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaoMapWithRx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E6AC2612835B3A800941322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -286,6 +292,9 @@
 			children = (
 				1E6AC2EC2835B94C00941322 /* LocationInformationViewController.swift */,
 				1E6AC2EE2835B96A00941322 /* LocationInformationViewModel.swift */,
+				1E5596802838B5FB00F8C4BE /* DetailListCell.swift */,
+				1E5596822838B93800F8C4BE /* DetailListBackgroundView.swift */,
+				1E5596842838B94500F8C4BE /* DetailListBackgroundViewModel.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -480,9 +489,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E6AC2EF2835B96A00941322 /* LocationInformationViewModel.swift in Sources */,
+				1E5596832838B93800F8C4BE /* DetailListBackgroundView.swift in Sources */,
+				1E5596852838B94500F8C4BE /* DetailListBackgroundViewModel.swift in Sources */,
 				1E6AC2E62835B83E00941322 /* LocationData.swift in Sources */,
 				1E6AC2ED2835B94C00941322 /* LocationInformationViewController.swift in Sources */,
 				1E69231B2835BD6F000F87D4 /* MTMapViewError.swift in Sources */,
+				1E5596812838B5FB00F8C4BE /* DetailListCell.swift in Sources */,
 				1E6AC2E82835B86400941322 /* KLDocument.swift in Sources */,
 				1E6AC2622835B3A800941322 /* AppDelegate.swift in Sources */,
 				1E6AC2EA2835B8D600941322 /* DetailListCellData.swift in Sources */,
