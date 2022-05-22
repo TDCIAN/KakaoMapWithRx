@@ -61,6 +61,7 @@
 		1E6AC2EA2835B8D600941322 /* DetailListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6AC2E92835B8D600941322 /* DetailListCellData.swift */; };
 		1E6AC2ED2835B94C00941322 /* LocationInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6AC2EC2835B94C00941322 /* LocationInformationViewController.swift */; };
 		1E6AC2EF2835B96A00941322 /* LocationInformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6AC2EE2835B96A00941322 /* LocationInformationViewModel.swift */; };
+		1E95FD6D283AF4C0006BA017 /* LocalAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E95FD6C283AF4C0006BA017 /* LocalAPI.swift */; };
 		F902B3941410B97D33FD472F /* Pods_KakaoMapWithRx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79218FE04B1840FC77126CF9 /* Pods_KakaoMapWithRx.framework */; };
 /* End PBXBuildFile section */
 
@@ -137,6 +138,7 @@
 		1E6AC2E92835B8D600941322 /* DetailListCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCellData.swift; sourceTree = "<group>"; };
 		1E6AC2EC2835B94C00941322 /* LocationInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationViewController.swift; sourceTree = "<group>"; };
 		1E6AC2EE2835B96A00941322 /* LocationInformationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationViewModel.swift; sourceTree = "<group>"; };
+		1E95FD6C283AF4C0006BA017 /* LocalAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAPI.swift; sourceTree = "<group>"; };
 		79218FE04B1840FC77126CF9 /* Pods_KakaoMapWithRx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KakaoMapWithRx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD6FBA5A29E4F5EA55B520F /* Pods-KakaoMapWithRx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakaoMapWithRx.debug.xcconfig"; path = "Target Support Files/Pods-KakaoMapWithRx/Pods-KakaoMapWithRx.debug.xcconfig"; sourceTree = "<group>"; };
 		C708D245A2C86692D21E4919 /* Pods-KakaoMapWithRx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakaoMapWithRx.release.xcconfig"; path = "Target Support Files/Pods-KakaoMapWithRx/Pods-KakaoMapWithRx.release.xcconfig"; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 		1E6AC2602835B3A800941322 /* KakaoMapWithRx */ = {
 			isa = PBXGroup;
 			children = (
+				1E95FD6B283AF4B5006BA017 /* Network */,
 				1E6AC2EB2835B93E00941322 /* Presentation */,
 				1E6AC2E42835B82B00941322 /* Entities */,
 				1E6AC2B82835B58500941322 /* BridgingHeader.h */,
@@ -297,6 +300,14 @@
 				1E5596842838B94500F8C4BE /* DetailListBackgroundViewModel.swift */,
 			);
 			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1E95FD6B283AF4B5006BA017 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1E95FD6C283AF4C0006BA017 /* LocalAPI.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		4B6AF702D8BBC604241B6C46 /* Frameworks */ = {
@@ -494,6 +505,7 @@
 				1E6AC2E62835B83E00941322 /* LocationData.swift in Sources */,
 				1E6AC2ED2835B94C00941322 /* LocationInformationViewController.swift in Sources */,
 				1E69231B2835BD6F000F87D4 /* MTMapViewError.swift in Sources */,
+				1E95FD6D283AF4C0006BA017 /* LocalAPI.swift in Sources */,
 				1E5596812838B5FB00F8C4BE /* DetailListCell.swift in Sources */,
 				1E6AC2E82835B86400941322 /* KLDocument.swift in Sources */,
 				1E6AC2622835B3A800941322 /* AppDelegate.swift in Sources */,
